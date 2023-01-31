@@ -39,7 +39,7 @@ const TopBar = ({ showNav, setShowNav }) => {
                             <div className="relative p-3">
                                 <div className="flex justify-between items-center w-full">
                                     <p className="text-gray-700 font-medium">Notifications</p>
-                                    <Link to="#" className='text-sm text-orange-500'>Mark all as read</Link>
+                                    <Link to="#" className='text-sm text-green-500'>Mark all as read</Link>
                                 </div>
                                 <div className="mt-4 grid gap-4 grid-cols-1 overflow-hidden">
                                     <div className="flex">
@@ -119,19 +119,19 @@ const TopBar = ({ showNav, setShowNav }) => {
                         <Menu.Items className="absolute right-0 w-56 z-50 mt-2 origin-top-right bg-white rounded shadow-sm">
                             <div className="p-1">
                                 <Menu.Item>
-                                    <Link to="#" className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center">
+                                    <Link to="#" className="flex hover:bg-green-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center">
                                         <PencilIcon className="h-4 w-4 mr-2" />
                                         Edit
                                     </Link>
                                 </Menu.Item>
                                 <Menu.Item>
-                                    <Link to="#" className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center">
+                                    <Link to="#" className="flex hover:bg-green-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center">
                                         <CreditCardIcon className="h-4 w-4 mr-2" />
                                         Billing
                                     </Link>
                                 </Menu.Item>
                                 <Menu.Item>
-                                    <Link to="#" className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center">
+                                    <Link to="#" className="flex hover:bg-green-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center">
                                         <Cog8ToothIcon className="h-4 w-4 mr-2" />
                                         Settings
                                     </Link>
